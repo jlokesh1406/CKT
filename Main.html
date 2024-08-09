@@ -126,7 +126,7 @@
             background-color: rgb(0, 0, 0);
             margin-top: 40px;
             position: relative;
-            bottom: -100px;
+            bottom: -1000px;
         }
         form
         {
@@ -296,7 +296,7 @@
             images.forEach(image => {
                 const imageName = image.dataset.name.toLowerCase();
                 if (imageName.includes(searchValue)) {
-                    image.style.display = "block";
+                    image.style.display = "flex";
                 } else {
                     image.style.display = "none";
                 }
